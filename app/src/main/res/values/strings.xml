@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">VerticalViewPagerDemo</string>
+    <string name="base_url">ThisIsProdEnvironment</string>
 </resources>

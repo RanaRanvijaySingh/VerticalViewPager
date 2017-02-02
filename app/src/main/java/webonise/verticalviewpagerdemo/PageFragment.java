@@ -12,9 +12,10 @@ public class PageFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        final View view = inflater.inflate(R.layout.fragment_page,null);
+        final View view = inflater.inflate(R.layout.fragment_page, null);
         final TextView tvPageCount = (TextView) view.findViewById(R.id.tvPageCount);
-        tvPageCount.setText(getArguments().getString("pageCount"));
+        String pageCount = getArguments().getString("pageCount");
+        tvPageCount.setText(pageCount);
         return view;
     }
 }
