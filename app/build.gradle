@@ -19,15 +19,16 @@ android {
 
         debug{
             debuggable true
+            applicationIdSuffix ".debug"
         }
     }
 
     productFlavors {
-        prod {
+        dev {
 
         }
 
-        dev {
+        prod {
 
         }
     }
